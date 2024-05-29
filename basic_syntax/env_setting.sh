@@ -56,3 +56,11 @@ git commit -m "title" -m "body"
 # add와 커밋을 동시에
 git commit -am "add와 커밋 동시"
 
+git log --oneline
+
+git log --all
+
+git push origin 브랜치명
+
+# 충돌무시하고 강제 push
+git 
