@@ -42,3 +42,4 @@ git config --global user.name "이름"
 git config --global user.email "이메일"
 
 # 지역적 사용자() 지정
+
