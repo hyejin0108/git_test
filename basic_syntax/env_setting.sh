@@ -28,3 +28,17 @@ git push origin 브랜치명
 # token방식 - github에서 보안키 발급
 
 # oAuth방식 - 
+
+# 타인레포 clone 방법 2가지
+# 커밋이력 유지하고 가져가기
+    git remote set-url origin <주소>
+# 커밋이력 없애고 가져가기
+    # .git 삭제후 add, commit, push
+    git remote add origin <주소>
+
+# 사용자 지정 방법
+# 전역적 사용자(이름, email) 지정
+git config --global user.name "이름"
+git config --global user.email "이메일"
+
+# 지역적 사용자() 지정
