@@ -27,3 +27,6 @@ git revert
 # A를 기준으로 B가 어떤 변경이 일어났는지
 git diff A B
 git diff commitID1 commitID12
+
+# 원격에서 내려받되, merge x
+git fetch
