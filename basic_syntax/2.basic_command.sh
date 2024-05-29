@@ -34,3 +34,4 @@ git fetch | git merge origin/master master
 # git fetch
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 # 비교 : git pull origin master와 git getch origin master 비교
+
