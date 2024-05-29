@@ -29,4 +29,8 @@ git diff A B
 git diff commitID1 commitID12
 
 # 원격에서 내려받되, merge x
-git fetch
+git fetch | git merge origin/master master
+
+# git fetch
+# 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
+# 비교 : git pull origin master와 git getch origin master 비교
