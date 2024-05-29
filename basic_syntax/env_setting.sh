@@ -42,4 +42,9 @@ git config --global user.name "이름"
 git config --global user.email "이메일"
 
 # 지역적 사용자() 지정
+git config --local user.name "이름"
+git config --local user.email "이메일"
+
+# git ignore
+# 확장자 .gitignore, git 추적 제외대상 나열
 
