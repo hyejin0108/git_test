@@ -48,3 +48,11 @@ git config --local user.email "이메일"
 # git ignore
 # 확장자 .gitignore, git 추적 제외대상 나열
 
+git commit -m "title" -m "body"
+
+# vm 모드 작성
+# git commit 후 엔터
+
+# add와 커밋을 동시에
+git commit -am "add와 커밋 동시"
+
