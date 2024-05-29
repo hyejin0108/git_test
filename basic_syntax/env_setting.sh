@@ -5,3 +5,13 @@ git init # 해당 프로젝트 경로에 .git 생성
 
 # 원격지 주소 생성 및 추가
 git remote add origin <주소>
+
+# 원격지 주소 삭제
+git remote remove origin
+
+# 수정
+git remote set-url origin <주소>
+
+# 설정 정보 조회
+git config --list
+
