@@ -60,7 +60,11 @@ git log --oneline
 
 git log --all
 
+git log --graph
+
 git push origin 브랜치명
 
 # 충돌무시하고 강제 push
-git 
+git push --force
+
+# 특정 commit id로의 전환
