@@ -15,3 +15,16 @@ git remote set-url origin <주소>
 # 설정 정보 조회
 git config --list
 
+# git add . 은 모든 변경사항 staging area로 이동
+git add .
+
+# git commit은 staging area 의 변경사항을 확정짓고 commitID 생성
+git commit - m "메세지"
+
+# 원격 repo에 upload
+git push origin 브랜치명
+
+# github 인증방법 두가지
+# token방식 - github에서 보안키 발급
+
+# oAuth방식 - 
