@@ -59,5 +59,5 @@ git branch 브랜치명
 # 전환
 git checkout 브랜치명
 # 목록
-git branch
+git branch -a
 
