@@ -11,8 +11,5 @@ hello world 9;
 hello world 10;
 hello world 11;
 hello world 12;
-<<<<<<< HEAD
 hello world 13;
-=======
 hello world 14;
->>>>>>> origin/master
