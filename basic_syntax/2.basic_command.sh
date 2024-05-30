@@ -60,4 +60,7 @@ git branch 브랜치명
 git checkout 브랜치명
 # 목록
 git branch -a
-
+# 삭제
+git branch -D 브랜치명
+# 브랜치 생성과 전환 동시에
+git branch -b 브랜치명
