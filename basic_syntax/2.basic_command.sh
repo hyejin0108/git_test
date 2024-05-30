@@ -67,3 +67,5 @@ git branch -b 브랜치명
 # 로컬에서 브랜치 만들거면 최신화 필수
 # 원격에서 브랜치 생성
 git fetch --all
+git fetch --all --prune
+git checkout -b feature1 origin/feature1
