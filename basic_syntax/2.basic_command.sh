@@ -39,3 +39,6 @@ git stash
 git stash pop
 git stash list
 git stash show -p 인덱스
+
+# 목록은 놔둔채 작업목록 적용
+git stash apply 
