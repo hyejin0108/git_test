@@ -64,3 +64,6 @@ git branch -a
 git branch -D 브랜치명
 # 브랜치 생성과 전환 동시에
 git branch -b 브랜치명
+# 로컬에서 브랜치 만들거면 최신화 필수
+# 원격에서 브랜치 생성
+git fetch --all
