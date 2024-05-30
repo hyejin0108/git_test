@@ -42,3 +42,14 @@ git stash show -p 인덱스
 
 # 목록은 놔둔채 작업목록 적용
 git stash apply 
+
+# 버전명시 tagging
+git tag v1.0
+git tag v1.0 -m "1. 주요사항 2. 주요사항 3. 주요사항"
+
+# tag release 배포
+# commit 푸시와 상관없이 태그 별도 push
+git push origin v1.0
+
+# 태그 목록 조회
+git tag
